@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block title %}Головна - Продаж комп'ютерів та техніки{% endblock %}
+
+{% block content %}
+<h1 class="text-4xl font-bold text-center text-blue-600 mb-8">Ласкаво просимо до магазину комп'ютерної техніки</h1>
+
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+    <div>
+        <img src="https://dixi.education/wp-content/uploads/computer-desktop.jpg" alt="Комп'ютери та техніка" class="w-full rounded-lg shadow-md">
+    </div>
+    <div class="flex flex-col justify-center">
+        <p class="text-lg mb-4">
+            У нашому магазині ви знайдете широкий асортимент сучасної комп'ютерної техніки, включаючи ноутбуки, настільні комп'ютери,
+            аксесуари та багато іншого. Ми пропонуємо якісну продукцію відомих брендів за доступними цінами.
+        </p>
+        <p class="text-lg mb-4">
+            Дізнайтесь більше про наші новинки, акції та спеціальні пропозиції, щоб зробити вашу покупку ще більш вигідною!
+        </p>
+        <a href="/shop" class="mt-4 inline-block bg-blue-500 text-white py-2 px-4 rounded-lg shadow hover:bg-blue-600 transition">
+            Перейти до магазину
+        </a>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title %}Кошик{% endblock %}
+{% block content %}
+<h1 class="text-3xl font-bold mb-4">Кошик</h1>
+{% if cart %}
+{% else %}
+    <p>Ваш кошик порожній.</p>
+{% endif %}
+{% endblock %}
